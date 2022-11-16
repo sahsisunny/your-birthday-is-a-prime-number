@@ -4,7 +4,7 @@
 
 - This is a simple program that tells you whether your birth day is a prime number or not.
 - In this web app you can also check whether your birth day is a prime number or not.
-- If  your birth day is a prime number then you can share this on your social media.
+- If your birth day is a prime number then you can share this on your social media.
 
 ## How to use this?
 
@@ -24,4 +24,4 @@
 
 ## Screenshot
 
-![Screenshot](
+![Screenshot](https://github.com/sahsisunny/your-birthday-is-a-prime-number/blob/main/assets/screenshot.png)
