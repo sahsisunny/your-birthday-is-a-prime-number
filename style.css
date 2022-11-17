@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 :root {
      --primary-color: #000000;
 }
@@ -159,9 +161,14 @@ footer a {
 
      input {
           margin-bottom: 4rem;
-          width: 80%;
           font-size: 3rem;
           height: 6rem;
+          background: transparent;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+
+     #result {
+          font-size: 4rem;
      }
 
      .btn {

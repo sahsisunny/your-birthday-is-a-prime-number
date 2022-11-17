@@ -24,20 +24,19 @@ function checkPrime() {
      let day = dateArr[2];
 
      if (day === undefined) {
-          result.innerText = 'Please enter a date';
+          result.innerText = 'Please enter a date⚠️';
      } else if (isPrime(day)) {
-          result.innerText = 'Your birthday is a prime number!';
-          console.log(day);
+          result.innerText = 'Ohh! Your birthday is a prime number☹️☹️';
      } else {
-          result.innerText = 'Your birthday is not a prime number!';
+          result.innerText = 'Yaay! Your birthday is not a prime number!🎉🎉';
      }
 }
 
 checkBTN.addEventListener('click', checkPrime);
 
 
-// set windows reload after 20 seconds
+// set windows reload 
 setTimeout(function () {
      window.location.reload(1);
-}, 20000);
+}, 80000);
 
